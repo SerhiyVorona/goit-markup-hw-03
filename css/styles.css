@@ -31,23 +31,27 @@ img {
 }
 
 .container {
-    max-width: 1440;
+    /*display: flex;*/
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    /*max-width: 1440;
     padding-left: 0;
     padding-right: 0;
     margin-left: 0;
     margin-right: 0;
     margin: 0 auto;
-    /* width: 1140px;
+    width: 1140px;
     height: 72px;*/
+}
+
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .main-nav {
     display: flex;
-    width: 1140px;
-    height: 72px;
-    border: 1px;
-    gap: 40px;
-    flex-direction: row;
+    align-items: center;
 }
 
 .logo {
@@ -58,8 +62,9 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    padding-top: 24px;
-    padding-left: 156px;
+    margin-right: 76px;
+    /*padding-top: 24px;
+    padding-left: 156px;*/
 }
 
 .logo-studio {
@@ -67,8 +72,8 @@ img {
 }
 
 .nav-bar {
-    padding-top: 24px;
-    padding-left: 347px;
+    display: flex;
+    gap: 40px;
 }
 
 .nav-bar-item {
@@ -78,6 +83,7 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
+    padding: 24px 0;
 }
 
 .nav-bar:hover {
@@ -90,6 +96,11 @@ img {
 
 .contact-information {
     font-style: normal;
+}
+
+.contact-information-list {
+    display: flex;
+    gap: 40px;
 }
 
 .contact-information-item {
