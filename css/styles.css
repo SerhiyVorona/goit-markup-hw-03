@@ -77,7 +77,11 @@ img {
     align-items: center;
 }
 
-.main-nav .nav-bar {
+.main-nav {
+    display: flex;
+}
+
+.nav-bar {
     display: flex;
     gap: 40px;
 }
@@ -109,6 +113,7 @@ img {
     font-style: normal;
     display: flex;
     gap: 40px;
+    margin-left: 156px;
 }
 
 .contact-information-item {
